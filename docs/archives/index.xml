@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Docs</title>
-    <link>https://www.terrychan.org/hugoautodocs/archives/</link>
+    <link>./archives/</link>
     <description>Recent content in Archives on Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
     
-	<atom:link href="https://www.terrychan.org/hugoautodocs/archives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./archives/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
