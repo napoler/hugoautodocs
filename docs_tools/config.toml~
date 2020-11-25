@@ -1,9 +1,9 @@
-#baseurl = "/"
+baseurl = "/"
 contentdir    = "content"
 layoutdir     = "layouts"
 #publishdir    = "public"
 publishdir    = "../docs"
-title = "Chinese Food"
+title = "Docs"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
