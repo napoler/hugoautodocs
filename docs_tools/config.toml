@@ -6,7 +6,7 @@ publishdir    = "../docs"
 title = "Docs"
 canonifyurls  = true
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh_cn"
 theme = "ChineseFood"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true

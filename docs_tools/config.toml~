@@ -1,4 +1,4 @@
-baseurl = "./"
+baseurl = "https://www.terrychan.org/hugoautodocs/"
 contentdir    = "content"
 layoutdir     = "layouts"
 #publishdir    = "public"
