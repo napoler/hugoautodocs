@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 # 自动构建脚本
-sudo apt-get install hugo
+#sudo apt-get install hugo -y
 
 
 #进行编译
