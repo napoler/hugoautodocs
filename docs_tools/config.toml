@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "./"
 contentdir    = "content"
 layoutdir     = "layouts"
 #publishdir    = "public"
