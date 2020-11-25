@@ -7,7 +7,7 @@
 #进行编译
 hugo
 #建立软链接
-ln -s ./public/ ../docs
+#ln -s ./public/ ../docs
 
 cp ./.nojekyll ../docs
 
