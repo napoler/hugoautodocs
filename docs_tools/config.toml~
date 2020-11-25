@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "./"
 contentdir    = "content"
 layoutdir     = "layouts"
 #publishdir    = "public"
@@ -16,8 +16,8 @@ pygmentCodeFences = true
 
 [Params]
   subtitle = "Hugo Blog Template for GitLab Pages"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
+  logo = "./img/avatar-icon.png"
+  favicon = "./img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -99,10 +99,10 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "./page/about/"
     weight = 4
 
 [[menu.main]]
     name = "list"
-    url = "page/list/"
+    url = "./page/list/"
     weight = 4

@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 # 自动构建脚本
-# 文档 http://www.pythondoc.com/sphinx/tutorial.html
+sudo apt-get install hugo
 
 
 #进行编译
