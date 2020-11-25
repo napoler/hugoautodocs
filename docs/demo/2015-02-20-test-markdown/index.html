@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Math</title>
-  <meta property="og:title" content="Math" />
-  <meta name="twitter:title" content="Math" />
+  <title>Test markdown</title>
+  <meta property="og:title" content="Test markdown" />
+  <meta name="twitter:title" content="Test markdown" />
+  <meta name="description" content="Each post also has a subtitle">
+  <meta property="og:description" content="Each post also has a subtitle">
+  <meta name="twitter:description" content="Each post also has a subtitle">
   <meta name="author" content="Some Person"/>
   <link href='img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="img/avatar-icon.png" />
@@ -15,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@username" />
   <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="/tags/math/" />
+  <meta property="og:url" content="/demo/2015-02-20-test-markdown/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Docs" />
 
   <meta name="generator" content="Hugo 0.40.1" />
-  <link rel="canonical" href="./tags/math/" />
+  <link rel="canonical" href="./demo/2015-02-20-test-markdown/" />
   <link rel="alternate" href="index.xml" type="application/rss+xml" title="Docs">
   
   <link rel="stylesheet" href="css/main.css" />
@@ -96,14 +99,30 @@
 
 
     
+  
+  
+  
+
+
+
+
+  
+
   <header class="header-section ">
+    
     <div class="intro-header no-img">
-      <div class="container">
+      
+      <div class="container ui">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>#Math</h1>
-              <hr class="small">
+            <div class="demo-heading">
+              <h1>Test markdown</h1>
+                
+                  
+                    <h2 class="demo-subheading">Each post also has a subtitle</h2>
+                  
+                
+                
             </div>
           </div>
         </div>
@@ -111,63 +130,99 @@
     </div>
   </header>
 
+
     
-  <div class="ui container" role="main">
-    
+<div class="ui container">
  
+  <div class="ui banner test ad" data-text="栏"></div>
+      <article role="main" class="blog-post ui     container">
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="./demo/2017-03-05-math-sample/">
-                <h2 class="post-title">Math Sample</h2>
-    
-                
-                  <h3 class="post-subtitle">
-                    Using KaTeX
-                  </h3>
-                
-              </a>
-    
-              <p class="post-meta">
-                
-              </p>
-              <div class="post-entry">
-                
-                  <p>KaTeX can be used to generate complex math formulas. It supports in-line math using the <code>\\( ... \\)</code> delimiters, like this: \( E = mc^2 \). By default, it does <em>not</em> support in-line delimiters <code>$...$</code> because those occur too commonly in typical webpages. It supports displayed math using the <code>$$</code> or <code>\\[...\\]</code> delimiters, like this:</p>
 
-<p>Formula 1:
-$$
-\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
-$$</p>
+<p>You can write regular <a href="http://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it&rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
 
-<p>Formula 2: (same formula, different delimiter)
-\[
-\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
-\]</p>
+<p><strong>Here is some bold text</strong></p>
 
-<p>Additional details can be found on <a href="https://github.com/Khan/KaTeX">GitHub</a> or on the <a href="http://tiddlywiki.com/plugins/tiddlywiki/katex/">Wiki</a>.
-</p>
-                  <a href="./demo/2017-03-05-math-sample/" class="post-read-more">[]</a>
-                
-              </div>
-    
-              
-                <span class="post-meta">
-                  
-                    #<a href="./tags/example">example</a>&nbsp;
-                  
-                    #<a href="./tags/math">math</a>&nbsp;
-                  
-                </span>
-              
-    
-            </article>
-          
-        </div>
+<h2 id="here-is-a-secondary-heading">Here is a secondary heading</h2>
+
+<p>Here&rsquo;s a useless table:</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Number</th>
+<th align="left">Next number</th>
+<th align="left">Previous number</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Five</td>
+<td align="left">Six</td>
+<td align="left">Four</td>
+</tr>
+
+<tr>
+<td align="left">Ten</td>
+<td align="left">Eleven</td>
+<td align="left">Nine</td>
+</tr>
+
+<tr>
+<td align="left">Seven</td>
+<td align="left">Eight</td>
+<td align="left">Six</td>
+</tr>
+
+<tr>
+<td align="left">Two</td>
+<td align="left">Three</td>
+<td align="left">One</td>
+</tr>
+</tbody>
+</table>
+
+<p>How about a yummy crepe?</p>
+
+<p><img src="http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" /></p>
+
+<p>Here&rsquo;s a code chunk with syntax highlighting:</p>
+
+<pre><code class="language-javascript">var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+</code></pre>
+
+      </article>
+
+
+
+
+
+
+      <div class="ui pagination menu">
         
+        <a  class="item"  href="./demo/2015-02-13-hamlet-monologue/" data-toggle="tooltip" data-placement="top" title="To be">
+          &larr; </a>
+          
+          
+        <a class="item" href="./demo/2015-02-26-flake-it-till-you-make-it/" data-toggle="tooltip" data-placement="top" title="Flake it till you make it"> &rarr;</a>
+        
+      </div>
+
+
+
+
  
-  </div>
+
+      
+        
+      
+
+ 
+ 
+</div>
 
     <footer>
   <div class="container">
